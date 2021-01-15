@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="USERSBUTTON"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginTop="10dp"
+        android:text="Users"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:onClick="NEWSBUTTON"
+        android:layout_marginEnd="25sp"
+        android:layout_marginTop="10dp"
+        android:text="News"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginTop="10dp"
+        android:text="Mega Offer"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:onClick="SUPPORTBUTTON"
+        android:layout_marginEnd="25sp"
+        android:layout_marginTop="10dp"
+        android:text="Support"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25sp"
+        android:layout_marginTop="10dp"
+        android:text="Suggestion"/>
+
+
+
+
+</LinearLayout>

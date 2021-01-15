@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#14304FFE"
+    android:layout_height="match_parent"
+    tools:context=".ChatActivity">
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Message_Recyler_View"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="5dp"
+        android:layout_above="@id/amr_maa"
+        android:layout_height="wrap_content">
+
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/amr_maa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:elevation="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:weightSum="6"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/user_message_text"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:background="@drawable/quary_input"
+            android:hint="Type your message"
+            android:paddingStart="10dp"
+            android:inputType="textShortMessage"
+            android:layout_weight="5"/>
+        <ImageView
+            android:id="@+id/user_message_submit"
+            android:layout_width="0dp"
+            android:elevation="15dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_baseline_send_24"/>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
